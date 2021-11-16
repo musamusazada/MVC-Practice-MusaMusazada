@@ -1,0 +1,1735 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: "";
+        content: none
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+header .container .row nav a, main #quickTips .container .row .tips-controller button {
+    position: relative
+}
+
+    header .container .row nav a::after, main #quickTips .container .row .tips-controller button::after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: inline-block;
+        content: "";
+        width: 100%;
+        height: 2px;
+        -webkit-transform-origin: right;
+        transform-origin: right;
+        background: #ffbe0b;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: 0.5s;
+        transition: 0.5s
+    }
+
+    header .container .row nav a:hover::after, main #quickTips .container .row .tips-controller button:hover::after {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+
+header .container .row .fav--display .favSlider #see-fav-button, body .error-modal .modal-text-box .modal-button, #registration .form-wrapper form .map-wrapper #deleteMarker, #registration .form-wrapper form .button-wrapper #login, #registration .form-wrapper form .button-wrapper #signup {
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s
+}
+
+main #quickTips .container .row .tips-controller button {
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+    height: 10rem;
+    cursor: pointer;
+    border: 1px solid #ccc9c9;
+    border-bottom: none;
+    background: #bdbcbc
+}
+.card{
+    border: none;
+}
+main #quickTips .container .row .img-box #diagnose-img, main #quickTips .container .row .img-box #engine-img, main #quickTips .container .row .img-box #oil-img, main #quickTips .container .row .img-box #tire-img, main #quickTips .container .row .img-box #gear-img, main #quickTips .container .row .img-box #battery-img {
+    position: absolute
+}
+
+main #mechanics .container .row .card-container .card-mechanic h1, main #infoTech .container .row .card .card-wrapper .card--text p, main #quickTips .container .row .img-box .tip-text, #registration h1, main #infoBoard .container .row .info-text-box h1 {
+    font-family: "Montserrat", sans-serif
+}
+
+main #mechanics .container .row .card-container .card-mechanic h1 {
+    font-weight: 300
+}
+
+main #infoTech .container .row .card .card-wrapper .card--text p {
+    font-weight: 300;
+    font-style: italic
+}
+
+main #quickTips .container .row .img-box .tip-text, #registration h1 {
+    font-weight: 500
+}
+
+main #infoBoard .container .row .info-text-box h1 {
+    font-weight: 500;
+    font-style: italic
+}
+
+header .container .row .fav--display .favSlider #see-fav-button, main #infoBoard .container .row .info-text-box h5, #registration .form-wrapper form .map-wrapper .title, #fav-main .container .fav-wrapper .fav-header h1, #fav-main .container .fav-wrapper .card-favorite .fav-text-box h1, #fav-main .container .fav-wrapper .card-favorite .fav-text-box P {
+    font-family: "Nunito", sans-serif
+}
+
+header .container .row .fav--display .favSlider #see-fav-button, main #infoBoard .container .row .info-text-box h5, #registration .form-wrapper form .map-wrapper .title, #fav-main .container .fav-wrapper .fav-header h1, #fav-main .container .fav-wrapper .card-favorite .fav-text-box h1, #fav-main .container .fav-wrapper .card-favorite .fav-text-box P {
+    font-weight: 400
+}
+
+body .error-modal .modal-text-box h1, main #quickTips .container .row .tips-title-box h3, main #infoTech .container .row .infoTech-title, #registration .form-wrapper form ::-webkit-input-placeholder {
+    font-family: "Roboto Mono", monospace
+}
+
+body .error-modal .modal-text-box h1, main #quickTips .container .row .tips-title-box h3, main #infoTech .container .row .infoTech-title, #registration .form-wrapper form :-ms-input-placeholder {
+    font-family: "Roboto Mono", monospace
+}
+
+body .error-modal .modal-text-box h1, main #quickTips .container .row .tips-title-box h3, main #infoTech .container .row .infoTech-title, #registration .form-wrapper form ::-ms-input-placeholder {
+    font-family: "Roboto Mono", monospace
+}
+
+body .error-modal .modal-text-box h1, main #quickTips .container .row .tips-title-box h3, main #infoTech .container .row .infoTech-title, #registration .form-wrapper form ::placeholder {
+    font-family: "Roboto Mono", monospace
+}
+
+body .error-modal .modal-text-box h1, main #quickTips .container .row .tips-title-box h3, main #infoTech .container .row .infoTech-title, #registration .form-wrapper form ::-webkit-input-placeholder {
+    font-weight: 400
+}
+
+body .error-modal .modal-text-box h1, main #quickTips .container .row .tips-title-box h3, main #infoTech .container .row .infoTech-title, #registration .form-wrapper form :-ms-input-placeholder {
+    font-weight: 400
+}
+
+body .error-modal .modal-text-box h1, main #quickTips .container .row .tips-title-box h3, main #infoTech .container .row .infoTech-title, #registration .form-wrapper form ::-ms-input-placeholder {
+    font-weight: 400
+}
+
+body .error-modal .modal-text-box h1, main #quickTips .container .row .tips-title-box h3, main #infoTech .container .row .infoTech-title, #registration .form-wrapper form ::placeholder {
+    font-weight: 400
+}
+
+main #mechanics .container .row .title-text h1, main #mechanics .container .row .card-container, header .container .row .fav--display .favSlider, main #quickTips .container .row .tips-title-box h1, main #infoTech .container .row .card .card-wrapper .card--text h1, #registration .form-wrapper form .map-wrapper .infotext, footer .container .row .site-info h1, footer .container .row .site-info h2 {
+    font-family: "Ubuntu", sans-serif
+}
+
+main #mechanics .container .row .title-text h1, main #mechanics .container .row .card-container {
+    font-weight: 300;
+    font-style: italic
+}
+
+header .container .row .fav--display .favSlider, main #quickTips .container .row .tips-title-box h1, main #infoTech .container .row .card .card-wrapper .card--text h1, #registration .form-wrapper form .map-wrapper .infotext, footer .container .row .site-info h1, 
+
+
+
+.container .row .site-info h2 {
+    font-weight: 400
+}
+
+.text-start {
+    text-align: start
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-end {
+    text-align: end
+}
+
+header {
+    background: #fff;
+    -webkit-box-shadow: 0 4px 20px 0 rgba(209,201,201,0.658);
+    box-shadow: 0 4px 20px 0 rgba(209,201,201,0.658);
+    z-index: 9999
+}
+
+    header .container .row {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+        header .container .row .img-box {
+            cursor: pointer;
+            height: 100px
+        }
+
+            header .container .row .img-box img {
+            }
+
+        header .container .row nav {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 20px
+        }
+
+            header .container .row nav a {
+                color: #6c757d;
+                padding: 20px 0;
+                text-decoration: none;
+                -webkit-transition: 0.1s;
+                transition: 0.1s
+            }
+
+                header .container .row nav a:hover {
+                    color: #000
+                }
+
+                header .container .row nav a span {
+                    font-size: 1.2rem
+                }
+
+            header .container .row nav .active {
+                color: #000 !important
+            }
+
+        header .container .row .fav--display {
+            position: relative;
+            padding: 10px;
+            cursor: pointer
+        }
+
+            header .container .row .fav--display .favSlider {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                gap: 20px;
+                z-index: 555;
+                position: absolute;
+                bottom: 0;
+                left: 100%;
+                -webkit-transform: translate(-50%, 100%);
+                transform: translate(-50%, 100%);
+                width: 300px;
+                height: auto;
+                background: #edf6f9;
+                border-radius: 10px;
+                padding: 20px 0
+            }
+
+                header .container .row .fav--display .favSlider div {
+                    width: 50%;
+                    text-align: center;
+                    padding: 10px 0;
+                    border-radius: 10px;
+                    background: #fff;
+                    -webkit-box-shadow: 0 0 15px 0 rgba(206,201,201,0.479);
+                    box-shadow: 0 0 15px 0 rgba(206,201,201,0.479);
+                    -webkit-transition: 0.4s;
+                    transition: 0.4s
+                }
+
+                    header .container .row .fav--display .favSlider div:hover {
+                        color: #fff;
+                        background-color: #2a9d8f
+                    }
+
+                header .container .row .fav--display .favSlider #see-fav-button {
+                    margin-top: 20px;
+                    -ms-flex-item-align: center;
+                    -ms-grid-row-align: center;
+                    align-self: center;
+                    -webkit-transition: 0.4s;
+                    transition: 0.4s;
+                    color: #4a4e69
+                }
+
+                    header .container .row .fav--display .favSlider #see-fav-button:hover {
+                        background: #ffb703;
+                        color: #fff
+                    }
+
+            header .container .row .fav--display:hover .fas.fa-tools {
+                color: #ffbe0b
+            }
+
+            header .container .row .fav--display .fas.fa-tools {
+                position: relative;
+                font-size: 1.7rem;
+                -webkit-transition: 0.3s;
+                transition: 0.3s
+            }
+
+                header .container .row .fav--display .fas.fa-tools #count {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -10px;
+                    right: -13px;
+                    width: 17px;
+                    height: 17px;
+                    border-radius: 50%;
+                    background: #e63946;
+                    font-size: 0.7rem;
+                    color: #fff
+                }
+
+body {
+    position: relative
+}
+
+    body .remove {
+        display: none
+    }
+
+    body .error-modal {
+        z-index: 1000000011;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px)
+    }
+
+        body .error-modal .modal-text-box {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            gap: 10px;
+            background: #fff;
+            -webkit-box-shadow: 0 0 15px 1px rgba(177,171,171,0.377);
+            box-shadow: 0 0 15px 1px rgba(177,171,171,0.377);
+            border-radius: 10px;
+            padding: 30px 15px;
+            cursor: pointer
+        }
+
+            body .error-modal .modal-text-box h1 {
+                font-size: 1.5rem
+            }
+
+            body .error-modal .modal-text-box .modal-button:hover {
+                background: #e63946;
+                color: #f1faee
+            }
+
+main #infoBoard {
+    min-height: 40vh;
+    padding: 30px;
+    background: #ffbe0b;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+    main #infoBoard .container .row {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+        main #infoBoard .container .row .info-text-box h1 {
+            color: #fdfcdc;
+            font-size: 3rem;
+            margin-bottom: 10px
+        }
+
+        main #infoBoard .container .row .info-text-box h5 {
+            color: #ae2012;
+            font-size: 2rem
+        }
+
+        main #infoBoard .container .row .info-img-box {
+            -o-object-fit: cover;
+            object-fit: cover
+        }
+
+            main #infoBoard .container .row .info-img-box img {
+                max-width: 100%;
+                display: block
+            }
+
+main #quickTips {
+    margin: 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+    main #quickTips .container .row .tips-title-box {
+        margin-bottom: 40px;
+        text-align: center;
+        position: relative
+    }
+
+        main #quickTips .container .row .tips-title-box h1 {
+            font-size: 2rem;
+            margin-bottom: 20px
+        }
+
+        main #quickTips .container .row .tips-title-box h3 {
+            font-size: 1.6rem
+        }
+
+        main #quickTips .container .row .tips-title-box::after {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            bottom: -20px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: #ffbe0b
+        }
+
+    main #quickTips .container .row .tips-controller {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0
+    }
+
+        main #quickTips .container .row .tips-controller .button-box {
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between
+        }
+
+        main #quickTips .container .row .tips-controller button {
+            background: #f0efeb;
+            font-size: 2rem;
+            -webkit-transition: 0.5s;
+            transition: 0.5s
+        }
+
+            main #quickTips .container .row .tips-controller button::after {
+                background: #fee440;
+                -webkit-transform-origin: center;
+                transform-origin: center;
+                height: 5px
+            }
+
+            main #quickTips .container .row .tips-controller button:hover {
+                color: #fee440;
+                background: #a0bed3bb
+            }
+
+    main #quickTips .container .row .img-box {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: gray;
+        padding: 50px 0
+    }
+
+        main #quickTips .container .row .img-box .fa-info-circle {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: #fff;
+            font-size: 1.5rem
+        }
+
+        main #quickTips .container .row .img-box .tip-text {
+            display: none;
+            font-size: 1rem;
+            position: absolute;
+            z-index: 0;
+            left: 10px;
+            top: 10px;
+            width: 350px;
+            min-height: 120px;
+            color: #fff;
+            background: rgba(29,29,29,0.425);
+            border-radius: 5px;
+            padding: 25px 0 0 35px
+        }
+
+        main #quickTips .container .row .img-box .img-wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -o-object-fit: cover;
+            object-fit: cover
+        }
+
+            main #quickTips .container .row .img-box .img-wrapper img {
+                width: 100%;
+                height: 100%;
+                display: block
+            }
+
+        main #quickTips .container .row .img-box .selected {
+            background: #ffd60a;
+            color: #fff
+        }
+
+        main #quickTips .container .row .img-box span {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background: #e9ecef;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        main #quickTips .container .row .img-box #diagnose-img {
+            top: 180px;
+            left: 34%
+        }
+
+        main #quickTips .container .row .img-box #engine-img {
+            top: 170px;
+            left: 18%
+        }
+
+        main #quickTips .container .row .img-box #oil-img {
+            top: 140px;
+            left: 24%
+        }
+
+        main #quickTips .container .row .img-box #tire-img {
+            top: 140px;
+            right: 24%
+        }
+
+        main #quickTips .container .row .img-box #gear-img {
+            bottom: 110px;
+            left: 40%
+        }
+
+        main #quickTips .container .row .img-box #battery-img {
+            top: 130px;
+            left: 30%
+        }
+
+main #mechanics .container .row .title-text {
+    margin: 20px 0
+}
+
+    main #mechanics .container .row .title-text h1 {
+        font-size: 2rem
+    }
+
+main #mechanics .container .row .card-container {
+    background: transparent;
+    margin-bottom: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem
+}
+
+    main #mechanics .container .row .card-container .card-mechanic {
+        margin-left: 10px;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 10px;
+        padding: 60px 10px;
+        cursor: pointer;
+        -webkit-box-shadow: 0 0 10px 1px rgba(209,208,208,0.507);
+        box-shadow: 0 0 10px 1px rgba(209,208,208,0.507);
+        -webkit-transition: 0.4s;
+        transition: 0.4s
+    }
+
+        main #mechanics .container .row .card-container .card-mechanic:hover {
+            background: #fffdf0
+        }
+
+        main #mechanics .container .row .card-container .card-mechanic .heart {
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            height: 10px;
+            -webkit-transition: 0.2s;
+            transition: 0.2s
+        }
+
+            main #mechanics .container .row .card-container .card-mechanic .heart:hover {
+                color: #e63946
+            }
+
+        main #mechanics .container .row .card-container .card-mechanic .fas {
+            color: #e63946
+        }
+
+        main #mechanics .container .row .card-container .card-mechanic .img-box-profile {
+            -o-object-fit: cover;
+            object-fit: cover;
+            overflow: hidden;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px
+        }
+
+            main #mechanics .container .row .card-container .card-mechanic .img-box-profile img {
+                width: 100%;
+                height: 100%;
+                display: block
+            }
+
+        main #mechanics .container .row .card-container .card-mechanic h1 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            font-style: normal;
+            font-size: 1rem
+        }
+
+main #infoTech {
+    margin: 100px 0
+}
+
+    main #infoTech .container .row {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+        main #infoTech .container .row .infoTech-title {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 50px
+        }
+
+        main #infoTech .container .row .card {
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+            cursor: pointer;
+            border-radius: 10px
+        }
+
+            main #infoTech .container .row .card:hover {
+                background: #9bebff;
+                color: #f1faee
+            }
+
+                main #infoTech .container .row .card:hover h1 {
+                    color: #3f37c9
+                }
+
+            main #infoTech .container .row .card .card-wrapper {
+                padding: 25px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                gap: 15px
+            }
+
+                main #infoTech .container .row .card .card-wrapper .card--img {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    -o-object-fit: cover;
+                    object-fit: cover
+                }
+
+                    main #infoTech .container .row .card .card-wrapper .card--img img {
+                        width: 100%
+                    }
+
+                main #infoTech .container .row .card .card-wrapper .card--text {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                    flex-direction: column;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    gap: 15px
+                }
+
+                    main #infoTech .container .row .card .card-wrapper .card--text h1 {
+                        font-size: 1.8rem
+                    }
+
+                    main #infoTech .container .row .card .card-wrapper .card--text p {
+                        -ms-flex-preferred-size: 50%;
+                        flex-basis: 50%;
+                        font-size: 1.5rem;
+                        text-align: center
+                    }
+
+main #canvas-section {
+    margin: 100px 0;
+    padding: 0 50px
+}
+
+    main #canvas-section #canvas {
+        width: 100%;
+        height: 898px;
+        background: #3028b6;
+        background: -webkit-gradient(linear, left top, right top, from(#3028b6), to(#00ecff));
+        background: linear-gradient(90deg, #3028b6 0%, #00ecff 100%);
+        cursor: pointer;
+        border-radius: 10px
+    }
+
+#registration {
+    margin-bottom: 100px;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 20px
+}
+
+    #registration h1 {
+        margin-top: 50px;
+        color: #1d3557;
+        font-size: 2.4rem;
+        text-shadow: 2px 2px 0 #ffbe0b
+    }
+
+    #registration #map {
+        border-radius: 10px;
+        height: 35vh;
+        width: 80%
+    }
+
+    #registration .form-wrapper {
+        margin: 20px 0;
+        -webkit-box-shadow: 0 0 10px 5px rgba(219,218,218,0.315);
+        box-shadow: 0 0 10px 5px rgba(219,218,218,0.315);
+        padding: 50px;
+        border-radius: 10px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s
+    }
+
+        #registration .form-wrapper:hover {
+            -webkit-box-shadow: 0 0 15px 10px rgba(219,218,218,0.315);
+            box-shadow: 0 0 15px 10px rgba(219,218,218,0.315)
+        }
+
+        #registration .form-wrapper form ::-webkit-input-placeholder {
+            font-size: 1rem
+        }
+
+        #registration .form-wrapper form :-ms-input-placeholder {
+            font-size: 1rem
+        }
+
+        #registration .form-wrapper form ::-ms-input-placeholder {
+            font-size: 1rem
+        }
+
+        #registration .form-wrapper form ::placeholder {
+            font-size: 1rem
+        }
+
+        #registration .form-wrapper form .wrong {
+            border: 2px solid #e63946 !important
+        }
+
+        #registration .form-wrapper form .input-wrapper textarea {
+            padding: 10px;
+            min-height: 10vh;
+            width: 80%;
+            cursor: pointer;
+            background: #f0efeb;
+            color: #000;
+            border: 2px solid #f0efeb;
+            outline: none;
+            border-radius: 10px;
+            margin-top: 10px;
+            padding: 15px 15px;
+            font-size: 1rem;
+            -webkit-transition: 0.3s;
+            transition: 0.3s
+        }
+
+            #registration .form-wrapper form .input-wrapper textarea:hover {
+                background: #fff1e6
+            }
+
+            #registration .form-wrapper form .input-wrapper textarea:focus {
+                border-color: #ffbe0b
+            }
+
+        #registration .form-wrapper form .input-wrapper input {
+            width: 80%;
+            cursor: pointer;
+            background: #f0efeb;
+            color: #000;
+            border: 2px solid #f0efeb;
+            outline: none;
+            border-radius: 10px;
+            margin-top: 10px;
+            padding: 15px 15px;
+            font-size: 1rem;
+            -webkit-transition: 0.3s;
+            transition: 0.3s
+        }
+
+            #registration .form-wrapper form .input-wrapper input:hover {
+                background: #fff1e6
+            }
+
+            #registration .form-wrapper form .input-wrapper input:focus {
+                border-color: #ffbe0b
+            }
+
+        #registration .form-wrapper form .map-wrapper {
+            position: relative
+        }
+
+            #registration .form-wrapper form .map-wrapper .infotext {
+                color: #1d3557;
+                font-size: 1.4rem
+            }
+
+            #registration .form-wrapper form .map-wrapper .title {
+                margin: 20px 0;
+                font-size: 2rem
+            }
+
+            #registration .form-wrapper form .map-wrapper #deleteMarker {
+                position: absolute;
+                z-index: 999;
+                bottom: 15px;
+                -webkit-transition: 0.3s;
+                transition: 0.3s
+            }
+
+                #registration .form-wrapper form .map-wrapper #deleteMarker:hover {
+                    background: #e63946;
+                    color: #fff
+                }
+
+        #registration .form-wrapper form .button-wrapper {
+            margin-top: 20px;
+            padding: 10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            gap: 20px
+        }
+
+            #registration .form-wrapper form .button-wrapper #login {
+                color: #fff;
+                background: #6bacd4
+            }
+
+                #registration .form-wrapper form .button-wrapper #login:hover {
+                    background: #457b9d
+                }
+
+            #registration .form-wrapper form .button-wrapper #signup {
+                color: #fff;
+                background: #52b69a
+            }
+
+                #registration .form-wrapper form .button-wrapper #signup:hover {
+                    background: #99d98c
+                }
+
+#fav-main {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    padding: 30px
+}
+
+    #fav-main .container .fav-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 20px
+    }
+
+        #fav-main .container .fav-wrapper .fav-header h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: #ffddd2;
+            text-shadow: -2px 3px 0 #f77f00, 2px 2px 0 #f4f1de;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+            cursor: pointer
+        }
+
+            #fav-main .container .fav-wrapper .fav-header h1:hover {
+                color: #ffb703;
+                text-shadow: 2px 2px 0 #b7b7a4
+            }
+
+        #fav-main .container .fav-wrapper .card-favorite {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 20px;
+            -webkit-box-shadow: 0 0 15px 3px #f4f1de;
+            box-shadow: 0 0 15px 3px #f4f1de;
+            border-radius: 10px;
+            padding: 20px;
+            cursor: pointer;
+            -webkit-transition: 0.5s;
+            transition: 0.5s
+        }
+
+            #fav-main .container .fav-wrapper .card-favorite:hover {
+                -webkit-box-shadow: 0 0 15px 8px #f4f1de;
+                box-shadow: 0 0 15px 8px #f4f1de
+            }
+
+                #fav-main .container .fav-wrapper .card-favorite:hover .img-box-profile img {
+                    -webkit-transform: scale(1.1);
+                    transform: scale(1.1)
+                }
+
+            #fav-main .container .fav-wrapper .card-favorite .img-box-profile {
+                -ms-flex-preferred-size: 40%;
+                flex-basis: 40%;
+                border-radius: 10px;
+                -o-object-fit: cover;
+                object-fit: cover;
+                overflow: hidden
+            }
+
+                #fav-main .container .fav-wrapper .card-favorite .img-box-profile img {
+                    -webkit-transition: 0.5s;
+                    transition: 0.5s;
+                    max-width: 100%;
+                    display: block
+                }
+
+            #fav-main .container .fav-wrapper .card-favorite .fav-text-box {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                gap: 20px
+            }
+
+                #fav-main .container .fav-wrapper .card-favorite .fav-text-box h1 {
+                    color: #3d405b;
+                    font-size: 1.3rem;
+                    width: 100%
+                }
+
+                #fav-main .container .fav-wrapper .card-favorite .fav-text-box P {
+                    color: #1d3557;
+                    font-size: 1.3rem;
+                    width: 100%
+                }
+
+footer {
+    padding: 100px 0;
+    background: url("../images/new_bg.jpg");
+    min-height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(150,148,148,0.568)
+}
+
+    footer .container .row {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background: #fff;
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+        border-radius: 10px;
+        cursor: pointer;
+        -webkit-transition: 0.4s;
+        transition: 0.4s
+    }
+
+        footer .container .row:hover {
+            -webkit-box-shadow: 0 0 15px 5px rgba(240,251,252,0.452),inset 0 0 15px 1px rgba(179,97,97,0.452);
+            box-shadow: 0 0 15px 5px rgba(240,251,252,0.452),inset 0 0 15px 1px rgba(179,97,97,0.452)
+        }
+
+        footer .container .row .site-info {
+            border-radius: 14px;
+            padding: 30px 10px;
+            -webkit-transition: 0.6s;
+            transition: 0.6s
+        }
+
+            footer .container .row .site-info h1 {
+                color: #000;
+                text-shadow: 3px 3px 2px #e07a5f;
+                -webkit-transition: 0.4s;
+                transition: 0.4s;
+                font-size: 3rem !important
+            }
+
+                footer .container .row .site-info h1:hover {
+                    text-shadow: -3px 3px 2px #e07a5f
+                }
+
+            footer .container .row .site-info h2 {
+                color: #000;
+                font-size: 2rem !important
+            }
+
+@media (min-width: 200px) {
+    header .container .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+        header .container .row .fav--display {
+            margin-top: 15px
+        }
+
+    main #infoBoard .container .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+        main #infoBoard .container .row .info-text-box h1 {
+            text-align: center;
+            font-size: 2rem
+        }
+
+        main #infoBoard .container .row .info-text-box h5 {
+            text-align: center;
+            font-size: 1.5rem
+        }
+
+        main #infoBoard .container .row .info-img-box {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center
+        }
+
+            main #infoBoard .container .row .info-img-box img {
+                max-width: 50%
+            }
+
+    main #quickTips .container .row .img-box .tip-text {
+        width: 400px;
+        min-height: 100px;
+        font-size: 0.9rem
+    }
+
+    main #quickTips .container .row .img-box span {
+        width: 35px;
+        height: 35px
+    }
+
+    main #quickTips .container .row .img-box #diagnose-img {
+        top: 180px;
+        left: 26%
+    }
+
+    main #quickTips .container .row .img-box #engine-img {
+        top: 150px;
+        left: 5%
+    }
+
+    main #quickTips .container .row .img-box #oil-img {
+        top: 120px;
+        left: 15%
+    }
+
+    main #quickTips .container .row .img-box #tire-img {
+        bottom: 150px;
+        right: 20%
+    }
+
+    main #quickTips .container .row .img-box #gear-img {
+        bottom: 90px;
+        left: 40%
+    }
+
+    main #quickTips .container .row .img-box #battery-img {
+        top: 120px;
+        left: 25%
+    }
+
+    #registration .container .row #map {
+        width: 100%
+    }
+
+    #registration .container .row .form-wrapper {
+        padding: 15px
+    }
+
+        #registration .container .row .form-wrapper .input-wrapper textarea {
+            width: 100%
+        }
+
+        #registration .container .row .form-wrapper .input-wrapper input {
+            width: 100%
+        }
+
+    .container .row .card-favorite {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+        .container .row .card-favorite .fav-text-box h1 {
+            font-size: 1rem
+        }
+
+        .container .row .card-favorite .fav-text-box p {
+            font-size: 1rem
+        }
+
+    footer .container .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+        footer .container .row .site-info h1 {
+            font-size: 3.5rem
+        }
+
+        footer .container .row .site-info h2 {
+            font-size: 1.3rem
+        }
+
+        footer .container .row .contact-info {
+            margin-left: 0;
+            margin-top: 10px
+        }
+
+            footer .container .row .contact-info h1 {
+                font-size: 1.5rem
+            }
+}
+
+@media (min-width: 768px) {
+    main #infoBoard .container .row {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+        main #infoBoard .container .row .info-text-box h1 {
+            text-align: center;
+            font-size: 3rem
+        }
+
+        main #infoBoard .container .row .info-text-box h5 {
+            text-align: center;
+            font-size: 2rem
+        }
+
+        main #infoBoard .container .row .info-img-box {
+            text-align: center
+        }
+
+            main #infoBoard .container .row .info-img-box img {
+                max-width: 100%
+            }
+
+    main #quickTips .container .row .tips-controller button {
+        height: 150px;
+        font-size: 2rem
+    }
+
+    main #quickTips .container .row .img-box .tip-text {
+        position: absolute;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        min-height: 100px;
+        font-size: 1.1rem
+    }
+
+    main #quickTips .container .row .img-box span {
+        width: 50px;
+        height: 50px
+    }
+
+    main #quickTips .container .row .img-box #diagnose-img {
+        position: absolute;
+        top: 180px;
+        left: 34%
+    }
+
+    main #quickTips .container .row .img-box #engine-img {
+        position: absolute;
+        top: 170px;
+        left: 18%
+    }
+
+    main #quickTips .container .row .img-box #oil-img {
+        position: absolute;
+        top: 140px;
+        left: 24%
+    }
+
+    main #quickTips .container .row .img-box #tire-img {
+        position: absolute;
+        top: 200px;
+        right: 30%
+    }
+
+    main #quickTips .container .row .img-box #gear-img {
+        position: absolute;
+        bottom: 110px;
+        left: 40%
+    }
+
+    main #quickTips .container .row .img-box #battery-img {
+        position: absolute;
+        top: 140px;
+        left: 30%
+    }
+
+    #registration .container .row #map {
+        width: 80%
+    }
+
+    #registration .container .row .form-wrapper {
+        padding: 50px
+    }
+
+        #registration .container .row .form-wrapper .input-wrapper textarea {
+            width: 80%
+        }
+
+        #registration .container .row .form-wrapper .input-wrapper input {
+            width: 80%
+        }
+
+    .container .row .card-favorite {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+    .container .row .fav-text-box h1 {
+        font-size: 1.3rem
+    }
+
+    .container .row .fav-text-box p {
+        font-size: 1.3rem
+    }
+
+    footer .container .row {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+        footer .container .row .site-info h1 {
+            font-size: 5rem
+        }
+
+        footer .container .row .site-info h2 {
+            font-size: 3rem
+        }
+
+        footer .container .row .contact-info {
+            margin-left: 10px;
+            margin-top: 0
+        }
+
+            footer .container .row .contact-info h1 {
+                font-size: 1.5rem
+            }
+}
+
+@media (max-width: 480px) {
+    main #quickTips {
+        margin-bottom: 200px
+    }
+
+        main #quickTips .container .row .tips-controller button {
+            height: 60px;
+            -ms-flex-preferred-size: 20%;
+            flex-basis: 20%;
+            font-size: 1.4rem
+        }
+
+        main #quickTips .container .row .img-box {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            min-height: 200px;
+            padding: 10px
+        }
+
+            main #quickTips .container .row .img-box .fa-info-circle {
+                bottom: 0;
+                left: 5px;
+                -webkit-transform: translateY(102%);
+                transform: translateY(102%)
+            }
+
+            main #quickTips .container .row .img-box .tip-text {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                -webkit-transform: translateY(100%);
+                transform: translateY(100%);
+                padding-bottom: 20px;
+                padding-right: 10px;
+                min-height: 100px;
+                font-size: 1.1rem;
+                border-radius: 0
+            }
+
+            main #quickTips .container .row .img-box span {
+                width: 30px;
+                height: 30px;
+                font-size: 0.8rem
+            }
+
+            main #quickTips .container .row .img-box #diagnose-img {
+                top: 100px;
+                left: 26%
+            }
+
+            main #quickTips .container .row .img-box #engine-img {
+                top: 80px;
+                left: 5%
+            }
+
+            main #quickTips .container .row .img-box #oil-img {
+                top: 70px;
+                left: 15%
+            }
+
+            main #quickTips .container .row .img-box #tire-img {
+                top: 100px;
+                right: 20%
+            }
+
+            main #quickTips .container .row .img-box #gear-img {
+                bottom: 40px;
+                left: 40%
+            }
+
+            main #quickTips .container .row .img-box #battery-img {
+                top: 60px;
+                left: 25%
+            }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    main #quickTips .container .row .tips-controller button {
+        height: 150px;
+        font-size: 2rem
+    }
+
+    main #quickTips .container .row .img-box .tip-text {
+        position: absolute;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        min-height: 100px;
+        font-size: 1.1rem
+    }
+
+    main #quickTips .container .row .img-box span {
+        width: 40px;
+        height: 40px
+    }
+
+    main #quickTips .container .row .img-box #diagnose-img {
+        position: absolute;
+        top: 200px;
+        left: 25%
+    }
+
+    main #quickTips .container .row .img-box #engine-img {
+        position: absolute;
+        top: 170px;
+        left: 4%
+    }
+
+    main #quickTips .container .row .img-box #oil-img {
+        position: absolute;
+        top: 140px;
+        left: 14%
+    }
+
+    main #quickTips .container .row .img-box #tire-img {
+        position: absolute;
+        top: 200px;
+        right: 25%
+    }
+
+    main #quickTips .container .row .img-box #gear-img {
+        position: absolute;
+        bottom: 110px;
+        left: 40%
+    }
+
+    main #quickTips .container .row .img-box #battery-img {
+        position: absolute;
+        top: 140px;
+        left: 25%
+    }
+}
+
+@media (min-width: 992px) {
+    header .container .row {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+        header .container .row .fav--display .favSlider {
+            -webkit-transform: translate(-80%, 100%);
+            transform: translate(-80%, 100%)
+        }
+
+    main #quickTips .container .row .tips-controller .button-box {
+        width: 100%
+    }
+
+    main #quickTips .container .row .tips-controller button {
+        height: 120px;
+        font-size: 2rem
+    }
+
+    main #quickTips .container .row .img-box .tip-text {
+        position: absolute;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        min-height: 100px;
+        font-size: 1.1rem
+    }
+
+    main #quickTips .container .row .img-box span {
+        width: 50px;
+        height: 50px
+    }
+
+    main #quickTips .container .row .img-box #diagnose-img {
+        position: absolute;
+        top: 200px;
+        left: 30%
+    }
+
+    main #quickTips .container .row .img-box #engine-img {
+        position: absolute;
+        top: 170px;
+        left: 12%
+    }
+
+    main #quickTips .container .row .img-box #oil-img {
+        position: absolute;
+        top: 140px;
+        left: 18%
+    }
+
+    main #quickTips .container .row .img-box #tire-img {
+        position: absolute;
+        top: 200px;
+        right: 25%
+    }
+
+    main #quickTips .container .row .img-box #gear-img {
+        position: absolute;
+        bottom: 110px;
+        left: 40%
+    }
+
+    main #quickTips .container .row .img-box #battery-img {
+        position: absolute;
+        top: 140px;
+        left: 25%
+    }
+}
+
+@media (min-width: 1200px) {
+    main #quickTips .container .row .tips-controller button {
+        height: 150px;
+        font-size: 2rem
+    }
+
+    main #quickTips .container .row .img-box .tip-text {
+        width: 400px;
+        min-height: 100px;
+        font-size: 0.9rem
+    }
+
+    main #quickTips .container .row .img-box span {
+        width: 50px;
+        height: 50px
+    }
+
+    main #quickTips .container .row .img-box #diagnose-img {
+        top: 190px;
+        left: 32%
+    }
+
+    main #quickTips .container .row .img-box #engine-img {
+        top: 180px;
+        left: 17%
+    }
+
+    main #quickTips .container .row .img-box #oil-img {
+        top: 150px;
+        left: 22%
+    }
+
+    main #quickTips .container .row .img-box #tire-img {
+        bottom: 150px;
+        right: 30%
+    }
+
+    main #quickTips .container .row .img-box #gear-img {
+        bottom: 110px;
+        left: 40%
+    }
+
+    main #quickTips .container .row .img-box #battery-img {
+        top: 140px;
+        left: 28%
+    }
+}
+
+@media (min-width: 1400px) {
+    main #quickTips .container .row .tips-controller button {
+        height: 150px;
+        font-size: 1.4rem
+    }
+
+    main #quickTips .container .row .img-box .tip-text {
+        width: 400px;
+        min-height: 100px;
+        font-size: 0.9rem
+    }
+
+    main #quickTips .container .row .img-box span {
+        width: 50px;
+        height: 50px
+    }
+
+    main #quickTips .container .row .img-box #diagnose-img {
+        top: 190px;
+        left: 32%
+    }
+
+    main #quickTips .container .row .img-box #engine-img {
+        top: 180px;
+        left: 17%
+    }
+
+    main #quickTips .container .row .img-box #oil-img {
+        top: 150px;
+        left: 22%
+    }
+
+    main #quickTips .container .row .img-box #tire-img {
+        bottom: 150px;
+        right: 30%
+    }
+
+    main #quickTips .container .row .img-box #gear-img {
+        bottom: 110px;
+        left: 40%
+    }
+
+    main #quickTips .container .row .img-box #battery-img {
+        top: 140px;
+        left: 28%
+    }
+}
+/*# sourceMappingURL=main.min.css.map */

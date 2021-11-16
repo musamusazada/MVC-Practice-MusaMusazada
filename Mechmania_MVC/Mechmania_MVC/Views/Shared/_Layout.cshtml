@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Mechmania_MVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,300;1,500&family=Nunito:ital,wght@0,200;0,300;0,400;1,300&family=Roboto+Mono:wght@200;400&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/407b7a1280.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <a   asp-controller="Home" asp-action="Index" class="col-4 img-box">
+                    <img src="~/images/cropped_Mechmania.png" alt="">
+                </a>
+                <nav class="col-4 d-flex justify-content-center">
+                    <a  class="active"   asp-controller="Home" asp-action="Index">
+                        <span>Home</span>
+                    </a>                   
+                    <a  id="mechanic--login"  asp-controller="Registration" asp-action="reg">
+                        <span>For Mechanics</span>
+                    </a>
+                </nav>
+                <div class="col-4 fav--display d-flex justify-content-end"><i class="fas fa-tools"><span id="count"></span></i><div class="favSlider"></div></div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-s-12 col-md-6 site-info">
+                    <div class="img-box">
+                        <img src="~/images/cropped_Mechmania.png" alt="">
+                    </div>
+                    <h2>Getting your car fixed hasn't been this easy and fast</h2>
+                </div>
+               
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

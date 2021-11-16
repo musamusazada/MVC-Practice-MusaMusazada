@@ -1,0 +1,151 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <main>
+        <section id="infoBoard">
+            <div class="container">
+                <div class="row">
+                    <div class="col-s-12 col-md-6 info-text-box">
+                        <h1>Find, Learn, Fix</h1>
+                        <h5>Mechmania brings it all together</h5>
+                        <h5>So you can get your car fixed A.S.A.P.</h5>
+                    </div>
+                    <div class="col-s-12 col-md-3 info-img-box">
+                        <img src="./images/mechanic-home.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quickTips">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 tips-title-box">
+                        <h1>Quick Tips</h1>
+                        <h3>Learn about your car</h3>
+                    </div>
+                    <div class="col-12 tips-controller">
+                        <div class="button-box">
+                            <button class="button-item" id="diagnose"><i class="fas fa-stethoscope"></i></button>
+                            <button class="button-item" id="engine"><i class="fab fa-searchengin"></i></button>
+                            <button class="button-item" id="oil"><i class="fas fa-oil-can"></i></button>
+                            <button class="button-item" id="tire"><i class="fas fa-truck-monster"></i></button>
+                            <button class="button-item" id="gear"><i class="fas fa-cogs"></i></button>
+                            <button class="button-item" id="battery"><i class="fas fa-car-battery"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-12 img-box">
+                        <div class="img-wrapper"><img src="./images/irangirover.png" alt="Car Image"></div>
+                        <div class="tip-text"></div>
+                        <i class="fas fa-info-circle"></i>
+                        <span class="caricon" id="diagnose-img"><i class="fas fa-stethoscope"></i></span>
+                        <span class="caricon" id="engine-img"><i class="fab fa-searchengin"></i></span>
+                        <span class="caricon" id="oil-img"><i class="fas fa-oil-can"></i></span>
+                        <span class="caricon" id="tire-img"><i class="fas fa-truck-monster"></i></span>
+                        <span class="caricon" id="gear-img"> <i class="fas fa-cogs"></i></span>
+                        <span class="caricon" id="battery-img"><i class="fas fa-car-battery"></i></span>
+                    </div>
+                </div>
+            </div>
+          
+        </section>
+        <section id="mechanics">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title-text">
+                        <h1 class="text-center">Browse Among Mechanics</h1>
+                    </div>
+                    <div class="col-12 card-container owl-carousel owl-theme"></div>
+                </div>
+            </div>
+        </section>
+        <section id="infoTech">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 infoTech-title">
+                        <h1>Available Perks on our Website</h1>
+                    </div>
+                    <div class="col-12 col-lg-4 card">
+                        <div class="card-wrapper">
+                          <div class="card--img">
+                              <img src="./images/icons/engine-100.png" alt="engine-icon">
+                          </div>
+                          <div class="card--text">
+                              <h1>Engine Booster</h1>
+                              <p>While a customer uses a service provided by Mechanic, they earn points. 2000 Points equals a free engine repair!</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 card">
+                        <div class="card-wrapper">
+                          <div class="card--img">
+                              <img src="./images/icons/oil-100.png" alt="oil-icon">
+                          </div>
+                          <div class="card--text">
+                            <h1>Fresh Oil</h1>
+                            <p>While a customer uses a service provided by Mechanic, they earn points. 500 Points equals a free oil change!</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 card">
+                        <div class="card-wrapper">
+                          <div class="card--img">
+                              <img src="./images/icons/performance-100.png" alt="performance-icon">
+                          </div>
+                          <div class="card--text">
+                              <h1>Free Check-Up</h1>
+                              <p>Customers with a positive rating points, earns a free Health Check-Up</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 card">
+                        <div class="card-wrapper">
+                          <div class="card--img">
+                              <img src="./images/icons/gear-100.png" alt="gear-icon">
+                          </div>
+                          <div class="card--text">
+                              <h1>Ask a question</h1>
+                              <p>Helping users in Q&A will grant you suprise points:) Which you can redeem car accessories from our online shop</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 card">
+                        <div class="card-wrapper">
+                          <div class="card--img">
+                              <img src="./images/icons/car-repair-100.png" alt="repair-icon">
+                          </div>
+                          <div class="card--text">
+                              <h1>Earn Bonuses</h1>
+                              <p>Mechanics with a high positivity & quality can earn a multiplier(x1,x2 and etc.)</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 card">
+                        <div class="card-wrapper">
+                          <div class="card--img">
+                              <img src="./images/icons/support-100.png" alt="support-icon">
+                          </div>
+                          <div class="card--text">
+                              <h1>7/24 Customer Service</h1>
+                              <p>Got a question? Or is there an issue bothering you? Contact us anytime:)</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="canvas-section">
+            
+              
+                       <canvas id="canvas"></canvas>
+                   
+               
+           
+        </section>
+    </main>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script type="module" src="~/js/site.js" asp-append-version="true"></script>
+
+    <script src="~/js/owlCarousel.js"></script>
+    <script src="~/js/canvas.js"></script>

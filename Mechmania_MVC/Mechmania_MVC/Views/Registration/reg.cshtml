@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Registration";
+}
+
+    <section id="registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Register</h1>
+                </div>
+                <div class="col-12 form-wrapper">
+                    <form autocomplete="off">
+                        <div class="input-wrapper text-center">
+                            <input class="input-item" id="fullname" type="text" placeholder="Full Name">
+                        </div>
+                        <div class="input-wrapper text-center">
+                            <input class="input-item" id="companyname" type="text" placeholder="Company Name">
+                        </div>
+                        <div class="input-wrapper text-center">
+                            <input class="input-item" id="contactnumber" type="text" placeholder="E.g +994514445522">
+                        </div>
+                        <div class="input-wrapper text-center">
+                            <textarea class="input-item"id="profession" placeholder="Talk us about yourself and skills"></textarea>
+                        </div>
+                        <div class="map-wrapper d-flex justify-content-center flex-column align-items-center">
+                            <div class="title">Choose Your Location</div>
+                            <button id="deleteMarker">Delete</button>
+                            <div id="map"></div>
+                        </div>
+                        <div class="button-wrapper">
+                            <button id="signup">SignUp</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+      <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwArmMh43BcMS7kZyYeoMUt32fZzNLOv4&callback=initMap&v=weekly"
+    async
+  ></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/mapInit.js"></script>
+
+    <script type="module" src="~/js/regOnLoad.js"></script>
